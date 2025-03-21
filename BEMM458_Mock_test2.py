@@ -1,10 +1,10 @@
 #######################################################################################################################################################
 # 
-# Name:
-# SID:
-# Exam Date:
-# Module:
-# Github link for this assignment:  
+# Name: MANN RAMNANI 
+# SID: 750001476
+# Exam Date: 21 MARCH 2025
+# Module: BEMM458 - Programming for Business Analytics
+# Github link for this assignment:  https://github.com/UniversityExeterBusinessSchool/mock-test-2-mr9971
 #
 #######################################################################################################################################################
 # Instruction 1. Read each question carefully and complete the scripts as instructed.
@@ -21,6 +21,19 @@
 # Question 1 - Loops and Lists
 # You are given a list of numbers representing weekly sales in units.
 weekly_sales = [120, 85, 100, 90, 110, 95, 130]
+
+average_sales = sum(weekly_sales) / len(weekly_sales)
+print("Average sales:", average_sales)
+
+for sales in weekly_sales:
+    if sales > average_sales:
+        print("Above average:", sales)
+    elif sales < average_sales:
+        print("Below average:", sales)
+    else:
+        print("Equal to average:", sales)
+        
+# the code will print average sales as : 105.0 
 
 # Write a for loop that iterates through the list and prints whether each week's sales were above or below the average sales for the period.
 # Calculate and print the average sales.
